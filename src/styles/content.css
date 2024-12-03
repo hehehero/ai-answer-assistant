@@ -1,0 +1,22 @@
+.screenshot-highlight {
+  outline: 2px solid red !important;
+  background-color: rgba(255, 0, 0, 0.1) !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease-in-out !important;
+  position: relative !important;
+  z-index: 999999 !important;
+}
+
+.screenshot-selecting * {
+  cursor: crosshair !important;
+}
+
+.screenshot-preview {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  max-width: 300px;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 999999;
+} 

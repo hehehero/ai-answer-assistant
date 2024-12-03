@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "网页元素截图工具",
+  "description": "快速截取网页元素并在其他页面中使用",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles/content.css"],
+      "js": ["scripts/utils.js", "scripts/content.js"]
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "lib/html2canvas.min.js"
+    ],
+    "matches": ["<all_urls>"]
+  }]
+} 

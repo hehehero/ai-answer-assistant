@@ -141,6 +141,6 @@ For issues or suggestions, please contact: | 如有问题或建议，请通过�
 
 Thanks to all friends who provided help and suggestions for this project! | 感谢所有为本项目提供帮助和建议的朋友们！
 
-如果看到这里了，不妨赞赏一下作者再走吧~吃饱了才更有力气搬砖
+### 🎨如果看到这里了，不妨赞赏一下作者再走吧~吃饱了才更有力气搬砖🤖
 
 ![alt text](ddfa8ddd05268105eeeaf0a7dc1f012.jpg)

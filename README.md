@@ -1,8 +1,42 @@
 # AI Answer Assistant (AI助手)
 
-一个帮助用户快速获取AI回答的Chrome浏览器扩展。
+A Chrome browser extension that helps users quickly get AI answers. | 一个帮助用户快速获取AI回答的Chrome浏览器扩展。
 
-## 功能特点
+[English](#english) | [中文](#chinese)
+
+## English
+
+### Features
+
+- 🖼️ Quick Screenshot: Support intelligent webpage area capture
+- 🤖 AI Recognition: Automatically send screenshots to AI assistant
+- ⚡ Real-time Response: Get professional AI answers quickly
+- 🎯 Convenient Operation: Support shortcuts and right-click menu
+- 🎨 Elegant Display: Clear and beautiful conversation interface
+
+### Installation
+
+1. Download the extension package
+2. Open Chrome browser and go to extensions page (chrome://extensions/)
+3. Enable Developer Mode
+4. Click "Load unpacked"
+5. Select the unzipped extension folder
+
+### Usage
+
+1. Click the extension icon in browser toolbar
+2. Select webpage area for screenshot
+3. Wait for AI assistant to analyze and respond
+4. View AI answer results
+
+### Shortcuts
+
+- Start Screenshot: Alt + Shift + A
+- Open Menu: Right-click extension icon
+
+## Chinese
+
+### 功能特点
 
 - 🖼️ 快速截图：支持网页区域智能截图
 - 🤖 AI识别：自动将截图发送至AI助手
@@ -10,19 +44,7 @@
 - 🎯 便捷操作：支持快捷键和右键菜单
 - 🎨 优雅展示：清晰美观的对话界面
 
-## 版本信息
-
-当前版本：v1.1.0
-
-### 更新日志
-
-v1.1.0 (2024-03)
-- ✨ 优化截图功能稳定性
-- 🎨 改进AI回答展示效果
-- 🚀 提升整体用户体验
-- 🐛 修复已知问题
-
-## 安装使用
+### 安装使用
 
 1. 下载插件压缩包
 2. 打开Chrome浏览器，进入扩展程序页面（chrome://extensions/）
@@ -30,77 +52,95 @@ v1.1.0 (2024-03)
 4. 点击"加载已解压的扩展程序"
 5. 选择解压后的插件文件夹
 
-## 使用说明
+### 使用说明
 
 1. 点击浏览器工具栏中的插件图标
 2. 选择需要询问的网页区域进行截图
 3. 等待AI助手分析并给出回答
 4. 查看AI回答结果
 
-## 快捷键
+### 快捷键
 
 - 开始截图：Alt + Shift + A
 - 打开菜单：右键点击插件图标
 
-## 项目结构
+## Project Structure | 项目结构
 
 ```
 ai-answer-assistant/
-├── manifest.json          # 扩展配置文件
-├── package.json          # 项目配置文件
-├── README.md            # 项目说明文档
+├── manifest.json          # Extension configuration file
+├── package.json          # Project configuration file
+├── README.md            # Project documentation
 └── src/
     ├── assets/
-    │   └── icons/       # 扩展图标资源
+    │   └── icons/       # Extension icon resources
     │       ├── icon-16.png
     │       ├── icon-32.png
     │       ├── icon-48.png
     │       └── icon-128.png
     ├── scripts/
-    │   ├── background.js # 后台脚本
-    │   └── content.js    # 内容脚本
+    │   ├── background.js # Background script
+    │   └── content.js    # Content script
     └── styles/
-        └── content.css   # 样式文件
+        └── content.css   # Style file
 ```
 
-## 技术栈
+## Tech Stack | 技术栈
 
 - JavaScript ES6+
 - Chrome Extension API
 - HTML5/CSS3
 
-## 开发说明
+## Version Info | 版本信息
 
-### 本地开发
+Current Version | 当前版本：v1.1.0
 
-1. 克隆仓库：
+### Changelog | 更新日志
+
+v1.1.0 (2024-03)
+- ✨ Optimize screenshot function stability | 优化截图功能稳定性
+- 🎨 Improve AI answer display effect | 改进AI回答展示效果
+- 🚀 Enhance overall user experience | 提升整体用户体验
+- 🐛 Fix known issues | 修复已知问题
+
+## Development | 开发说明
+
+### Local Development | 本地开发
+
+1. Clone repository | 克隆仓库：
 
 ```bash
-git clone https://gitee.com/hehehero/ai-answer-assistant.git
+git clone https://github.com/hehehero/ai-answer-assistant.git
 ```
 
-2. 在Chrome扩展管理页面加载项目文件夹
-3. 修改代码后刷新扩展即可看到效果
+2. Load project folder in Chrome extensions page | 在Chrome扩展管理页面加载项目文件夹
+3. Refresh extension after code changes | 修改代码后刷新扩展即可看到效果
 
-## 注意事项
+## Notes | 注意事项
 
-- 使用前请确保已授予插件必要的权限
-- 建议使用最新版本的Chrome浏览器
-- 如遇问题请检查网络连接是否正常
+- Make sure to grant necessary permissions | 使用前请确保已授予插件必要的权限
+- Recommended to use latest Chrome version | 建议使用最新版本的Chrome浏览器
+- Check network connection if issues occur | 如遇问题请检查网络连接是否正常
 
-## 许可证
+## License | 许可证
 
 MIT License
 
-## 项目地址
+## Repository | 项目地址
 
+- GitHub：[https://github.com/hehehero/ai-answer-assistant](https://github.com/hehehero/ai-answer-assistant)
 - Gitee：[https://gitee.com/hehehero/ai-answer-assistant](https://gitee.com/hehehero/ai-answer-assistant)
 
-## 联系方式
+## Contact | 联系方式
 
-如有问题或建议，请通过以下方式联系：
+For issues or suggestions, please contact: | 如有问题或建议，请通过以下方式联系：
+- GitHub: [@hehehero](https://github.com/hehehero)
 - Gitee: [@hehehero](https://gitee.com/hehehero)
 
-## 致谢
+## Acknowledgments | 致谢
 
-感谢所有为本项目提供帮助和建议的朋友们！
+Thanks to all friends who provided help and suggestions for this project! | 感谢所有为本项目提供帮助和建议的朋友们！
+
+如果看到这里了，不妨赞赏一下作者再走吧~吃饱了才更有力气搬砖
+
+![alt text](ddfa8ddd05268105eeeaf0a7dc1f012.jpg)

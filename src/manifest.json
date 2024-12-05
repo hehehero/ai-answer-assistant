@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "网页元素截图工具",
   "description": "快速截取网页元素并在其他页面中使用",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "activeTab",
     "scripting",

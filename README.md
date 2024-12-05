@@ -1,26 +1,26 @@
-# AI Answer Assistant (AI回答助手)
+# AI Answer Assistant (AI助手)
 
 一个帮助用户快速获取AI回答的Chrome浏览器扩展。
 
 ## 功能特点
 
-- 快速截图：支持网页区域截图功能
-- 智能识别：自动将截图发送至AI助手
-- 实时响应：快速获取AI的专业回答
-- 便捷操作：支持快捷键和右键菜单操作
-- 优雅展示：清晰的对话界面展示
+- 🖼️ 快速截图：支持网页区域智能截图
+- 🤖 AI识别：自动将截图发送至AI助手
+- ⚡ 实时响应：快速获取AI的专业回答
+- 🎯 便捷操作：支持快捷键和右键菜单
+- 🎨 优雅展示：清晰美观的对话界面
 
 ## 版本信息
 
-当前版本：v1.1
+当前版本：v1.1.0
 
 ### 更新日志
 
-v1.1
-- 优化了截图功能的稳定性
-- 改进了AI回答的展示效果
-- 提升了整体用户体验
-- 修复了已知bug
+v1.1.0 (2024-03)
+- ✨ 优化截图功能稳定性
+- 🎨 改进AI回答展示效果
+- 🚀 提升整体用户体验
+- 🐛 修复已知问题
 
 ## 安装使用
 
@@ -42,25 +42,34 @@ v1.1
 - 开始截图：Alt + Shift + A
 - 打开菜单：右键点击插件图标
 
-## 目录结构
+## 项目结构
 
 ```
+ai-answer-assistant/
 ├── manifest.json          # 扩展配置文件
-├── src/
-│   ├── scripts/
-│   │   ├── content.js    # 主要功能实现
-│   │   └── background.js # 后台脚本
-│   └── styles/
-│       └── content.css   # 样式文件
-└── icons/                # 扩展图标
+├── package.json          # 项目配置文件
+├── README.md            # 项目说明文档
+└── src/
+    ├── assets/
+    │   └── icons/       # 扩展图标资源
+    │       ├── icon-16.png
+    │       ├── icon-32.png
+    │       ├── icon-48.png
+    │       └── icon-128.png
+    ├── scripts/
+    │   ├── background.js # 后台脚本
+    │   └── content.js    # 内容脚本
+    └── styles/
+        └── content.css   # 样式文件
 ```
+
+## 技术栈
+
+- JavaScript ES6+
+- Chrome Extension API
+- HTML5/CSS3
 
 ## 开发说明
-
-### 环境要求
-
-- Chrome 浏览器
-- 开发者模式已启用
 
 ### 本地开发
 
@@ -70,38 +79,27 @@ v1.1
 git clone https://gitee.com/hehehero/ai-answer-assistant.git
 ```
 
-2. 在 Chrome 扩展管理页面加载项目文件夹
+2. 在Chrome扩展管理页面加载项目文件夹
 3. 修改代码后刷新扩展即可看到效果
 
-### 调试方法
+## 注意事项
 
-1. 打开 Chrome 开发者工具
-2. 查看 Console 面板获取详细日志输出
-3. 可通过日志追踪功能执行流程
-
-## 更新日志
-
-### v1.0.0 (2024-03-14)
-
-- ✨ 实现基础图片粘贴功能
-- 🚀 实现自动发送功能
-- 💡 添加操作状态提示
-- 🐛 修复多个兼容性问题
-
-## 贡献指南
-
-1. Fork 本仓库
-2. 创建新的功能分支
-3. 提交更改
-4. 发起 Pull Request
+- 使用前请确保已授予插件必要的权限
+- 建议使用最新版本的Chrome浏览器
+- 如遇问题请检查网络连接是否正常
 
 ## 许可证
 
-[MIT License](LICENSE)
+MIT License
 
 ## 项目地址
 
 - Gitee：[https://gitee.com/hehehero/ai-answer-assistant](https://gitee.com/hehehero/ai-answer-assistant)
+
+## 联系方式
+
+如有问题或建议，请通过以下方式联系：
+- Gitee: [@hehehero](https://gitee.com/hehehero)
 
 ## 致谢
 

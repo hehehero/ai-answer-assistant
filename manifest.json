@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "AI助手",
+  "short_name": "AI助手",
+  "version": "1.1.0",
+  "description": "一个帮助用户快速获取AI回答的Chrome浏览器扩展",
+  "permissions": [
+    "activeTab",
+    "clipboardRead",
+    "clipboardWrite",
+    "scripting",
+    "tabs",
+    "cookies",
+    "windows",
+    "system.display"
+  ],
+  "host_permissions": [
+    "https://www.doubao.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src https://*.doubao.com/"
+  },
+  "action": {
+    "default_icon": {
+      "16": "src/assets/icons/icon-16.png",
+      "32": "src/assets/icons/icon-32.png",
+      "48": "src/assets/icons/icon-48.png",
+      "128": "src/assets/icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "src/assets/icons/icon-16.png",
+    "32": "src/assets/icons/icon-32.png",
+    "48": "src/assets/icons/icon-48.png",
+    "128": "src/assets/icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/scripts/content.js"],
+      "css": ["src/styles/content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "src/scripts/background.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["src/scripts/iframe-script.js"],
+    "matches": ["https://www.doubao.com/*"]
+  }]
+} 

@@ -1,16 +1,11 @@
 {
-  "name": "screenshot-extension",
-  "version": "1.0.0",
-  "description": "网页元素截图工具",
+  "name": "ai-answer-assistant",
+  "version": "1.1.0",
+  "description": "一个帮助用户快速获取AI回答的Chrome浏览器扩展",
   "scripts": {
     "build": "echo \"Add build script here\"",
     "test": "echo \"Add test script here\""
   },
-  "dependencies": {
-    "html2canvas": "^1.4.1"
-  },
-  "devDependencies": {
-    "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 } 
